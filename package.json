@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
-  "scripts": {},
+  "scripts": {
+    "deploy-storybook": "storybook-to-ghpages"
+  },
   "author": "",
   "license": "ISC",
   "devDependencies": {
