@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "keywords": [],
+  "scripts": {},
   "author": "",
   "license": "ISC",
   "devDependencies": {
