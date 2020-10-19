@@ -1,0 +1,16 @@
+name: 'Storybook Publisher'
+description: 'Publish a Storybook Site to GitHub Pages'
+inputs:
+  access-token:  
+    description: 'A GitHub personal access token used to commit to a branch on your behalf.'
+    required: true
+  branch:  
+    description: 'The branch to publish your Storybook site to.'
+    required: true
+    default: 'gh-pages'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.access-token }}
+    - ${{ inputs.branch }}

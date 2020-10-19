@@ -1,0 +1,12 @@
+{
+  "name": "publish-storybook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@storybook/storybook-deployer": "^2.8.7"
+  }
+}
