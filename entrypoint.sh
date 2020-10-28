@@ -22,4 +22,4 @@ fi
  git config --list
 
 # Deploy to GitHub Pages
-npx storybook-to-ghpages --host-token-env-variable $GH_TOKEN --branch $BRANCH  -- --ci
+npx storybook-to-ghpages --host-token-env-variable=GH_TOKEN --branch=$BRANCH --ci
