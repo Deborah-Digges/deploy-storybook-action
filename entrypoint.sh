@@ -12,14 +12,5 @@ npm install
 export GH_TOKEN=${1}
 export BRANCH=${2}
 
-echo $BRANCH
-
-if [ ! -z GH_TOKEN ]
-then
-    echo "token present"
-fi
-
- git config --list
-
 # Deploy to GitHub Pages
 npx storybook-to-ghpages --host-token-env-variable=GH_TOKEN --branch=$BRANCH --ci
